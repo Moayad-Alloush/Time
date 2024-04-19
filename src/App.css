@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #33cc33;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  display: inline-block;
+  width: 230px;
+  height: 150px;
+
+}
+.nmenu{
+   
+     color: #011101;
+}
+.nnmenu{
+
+  color:#0d0e0d;
+  padding: 20px;
+   
+}
+
+nav a {
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #ffd700;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+ .shoplist{
+  
+   margin-block-start: auto;
+   
+   color: #27e237;
+    
+  }
+
+  .thank{
+    font-size: 90px;
+       color: #27e237;
+  }
+
+  .addbutton{
+background-color: #33cc33;
+ margin-bottom: 20px;
+  }
+
+  .rembutton{
+
+margin-left: 30px;
+color: #ffffff;
+background-color: #ff0c0c;
+  }
+
+  .watchclass{
+      display: block;
+    width: 200px;
+    height: 200px;
+  }
+  .shoppingitemimg{
+     width: 150px;
+     height: 150px;
+     margin-bottom: 60px;
+  }

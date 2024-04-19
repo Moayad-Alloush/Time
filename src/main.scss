@@ -1,0 +1,19 @@
+
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$custom-theme-colors: (
+  "lapisLazuli": #22577A,    
+  "verdigris": #38A3A5,
+  "emerald": #57CC99,
+  "lightGreen": #80ED99,
+  "teaGreen": #C7F9CC
+
+  
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+@import '../node_modules//bootstrap/scss/bootstrap.scss';
