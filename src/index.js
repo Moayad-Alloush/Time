@@ -11,7 +11,7 @@ import { Shopping } from './components/shopping/shopping';
 import  App  from './App'
 import { PageNotFound } from './components/notFound/pageNotFound';
 import { Products } from './components/products/products';
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './index.css';
 
@@ -56,11 +56,7 @@ root.render(
   </React.StrictMode>
 );
 
-ReactDOM.render((
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
-) );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
